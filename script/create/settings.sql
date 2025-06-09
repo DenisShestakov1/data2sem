@@ -1,0 +1,5 @@
+CREATE TABLE settings (
+    setting_id INTEGER PRIMARY KEY AUTOINCREMENT,
+    key TEXT UNIQUE NOT NULL,
+    value TEXT
+);
